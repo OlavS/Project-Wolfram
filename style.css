@@ -1,24 +1,62 @@
 body{
 	font-style: sans-sarif;
 	line-height: 1.5em;
-	font-size: 12em;
+	font-size: 1.5em;
 }
 #banner{
+	width:100%;
+	background-color: lightgreen;
 	
+}
+#logo{
+	float: left;
 }
 #bannerHead{
-	
+	line-height: 0;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 1em;
+	margin-top: 2.4em;
+
 }
+#navBar{
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0;
+	background-color: #000;
+	font-size: 120%;
+	line-height: 1.5em;
+}
+#navbar a{
+	text-decoration: none;
+	color: #FFF;
+	display: inline-block;
+	transition:0.3s;
+}
+#navbar a:hover{
+	background-color: 5F5F5F;
+}
+
+.button{
+	padding: 1em
+}
+
 .box{
-	
+	display: block;
+	float: left;
+	padding: 10em 0em 10em 0em;
 }
 .boxHead{
-	
+	text-align: center;
 }
 .box footer{
 	font-size: 70%;
 	text-color: light-gray;
 }
 .miniBox{
+	float: right;
+	display:block
+}
+.wideBox{
 	
 }
