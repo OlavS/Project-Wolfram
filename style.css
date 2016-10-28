@@ -3,9 +3,12 @@ body{
 	line-height: 1.5em;
 	font-size: 1.5em;
 }
+
+/* All pages */
 #banner{
 	width:100%;
 	background-color: lightgreen;
+	display:inline-block;
 	
 }
 #logo{
@@ -16,31 +19,37 @@ body{
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 1em;
-	margin-top: 2.4em;
+	margin-top: 1.5em;
 
 }
-#navBar{
-	list-style-type: none;
-	overflow: hidden;
+/* NAV */
+nav{
 	padding: 0;
 	background-color: #000;
 	font-size: 120%;
 	line-height: 1.5em;
+	text-align: center;
 }
-#navbar a{
+nav a{
 	text-decoration: none;
 	color: #FFF;
 	display: inline-block;
 	transition:0.3s;
 }
-#navbar a:hover{
+nav a:hover{
 	background-color: 5F5F5F;
 }
-
+nav a li{
+	list-style-type: none;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding: 0.2em 1em 0.2em 1em;
+}
 .button{
 	padding: 1em
 }
 
+/* Index */
 .box{
 	display: block;
 	float: left;
@@ -57,6 +66,11 @@ body{
 	float: right;
 	display:block
 }
+/* All other then index */
 .wideBox{
+	
+}
+/*All pages*/
+#creators{
 	
 }
