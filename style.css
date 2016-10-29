@@ -2,6 +2,8 @@ body{
 	font-style: sans-sarif;
 	line-height: 1.5em;
 	font-size: 1.5em;
+	width: 80%;
+	margin: 0 auto;
 }
 
 /* All pages */
@@ -27,7 +29,7 @@ nav{
 	padding: 0;
 	background-color: #000;
 	font-size: 120%;
-	line-height: 1.5em;
+	line-height: 1.5;
 	text-align: center;
 }
 nav a{
@@ -35,14 +37,13 @@ nav a{
 	color: #FFF;
 	display: inline-block;
 	transition:0.3s;
+	
 }
 nav a:hover{
 	background-color: 5F5F5F;
 }
 nav a li{
 	list-style-type: none;
-	padding-left: 1em;
-	padding-right: 1em;
 	padding: 0.2em 1em 0.2em 1em;
 }
 .button{
@@ -53,7 +54,7 @@ nav a li{
 .box{
 	display: block;
 	float: left;
-	padding: 10em 0em 10em 0em;
+	padding: 1em:
 }
 .boxHead{
 	text-align: center;
