@@ -53,7 +53,7 @@ nav a li{
 
 /* Index */
 .box{
-	width: 50%;
+	width: 60%;
 	background-color: #FFF;
 	border-radius: 5px;
 	float: left;
@@ -78,8 +78,7 @@ nav a li{
 	text-color: light-gray;
 }
 .miniBox{
-	float: left;
-	margin-left: 12%;
+	float: right;
 	margin-top: 1em;
 	display: inline-block;
 	width: 30%;
