@@ -57,9 +57,15 @@ nav a li{
 	background-color: #FFF;
 	border-radius: 5px;
 	float: left;
-	padding: 0em 1em;
 	margin-top: 1em;
+	padding: 0em 1em;
 	box-shadow: 1em 1em 15em #9C9C9C;
+}
+.box img{
+	float: left;
+}
+.box .inbox{
+	float: right;
 }
 #boxSolution{
 
@@ -75,12 +81,10 @@ nav a li{
 }
 .box footer{
 	font-size: 70%;
-	text-color: light-gray;
+	color: #9C9C9C;
 }
 .miniBox{
 	float: right;
-	margin-top: 1em;
-	display: inline-block;
 	width: 30%;
 	background-color: #FFF;
 	border-radius: 5px;
@@ -89,10 +93,10 @@ nav a li{
 
 }	
 #firstMini{
-	margin-top:-12em;
+	margin-top: -48em;
 }
 #secoundMini{
-	margin-top: -7em;
+	margin-top: -43em;
 
 }
 /* All other then index */
