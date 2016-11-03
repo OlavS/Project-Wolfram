@@ -96,7 +96,7 @@ nav a li{
 	margin-top: -48em;
 }
 #secoundMini{
-	margin-top: -43em;
+	margin-top: -31.5em;
 
 }
 /* All other then index */
@@ -107,6 +107,16 @@ nav a li{
 	margin: auto;
 	box-shadow: 1em 1em 15em #9C9C9C;
 
+}
+.wideBox footer{
+	font-size: 70%;
+	color: #9C9C9C;
+}
+/* NBNBNBNBNBNBNBNBNB  koden i .wideBoxImg funker ikke NBNBNBNBNBNBNBNBNBNBNBNBNB*/
+.wideBox .wideBoxImg{
+	width: 30%;
+	float: left;
+	
 }
 /*All pages*/
 #creators{
