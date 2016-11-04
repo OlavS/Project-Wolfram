@@ -54,12 +54,12 @@ nav a li{
 /* Index */
 .box{
 	width: 60%;
-	background-color: #FFF;
+	background-color: #EEEEEE;
 	border-radius: 5px;
 	float: left;
 	margin-top: 1em;
 	padding: 0em 1em;
-	box-shadow: 1em 1em 15em #9C9C9C;
+	box-shadow: 1em 1em 4em #9C9C9C;
 }
 .box img{
 	float: left;
@@ -86,10 +86,10 @@ nav a li{
 .miniBox{
 	float: right;
 	width: 30%;
-	background-color: #FFF;
+	background-color: #EEEEEE;
 	border-radius: 5px;
 	padding: 0em 1em;
-	box-shadow: 1em 1em 15em #9C9C9C;
+	box-shadow: 1em 1em 4em #9C9C9C;
 
 }	
 #firstMini{
@@ -112,11 +112,11 @@ nav a li{
 	font-size: 70%;
 	color: #9C9C9C;
 }
-/* NBNBNBNBNBNBNBNBNB  koden i .wideBoxImg funker ikke NBNBNBNBNBNBNBNBNBNBNBNBNB*/
-.wideBox .wideBoxImg{
-	width: 30%;
-	float: left;
-	
+.wideBox img{
+	vertical-align: bottom;
+}
+.widebox figure{
+	float:left;
 }
 /*All pages*/
 #creators{
