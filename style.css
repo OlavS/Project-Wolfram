@@ -10,7 +10,7 @@ body{
 /* All pages */
 #banner{
 	width:100%;
-	background-color: lightgreen;
+	background-color: lightblue;
 	display:inline-block;
 	
 }
@@ -24,6 +24,30 @@ body{
 	margin-left: 1em;
 	margin-top: 1.5em;
 
+}
+@media only screen and (max-width: 1320px){
+	#banner{
+		
+	}
+	#logo{
+		
+	}
+	#bannerHead{
+		margin-top: 1.75em;
+		font-size: 3.65vw;
+	}
+}
+@media only screen and (max-width: 1100px){
+	#bannerHead{
+		margin-top: 2em;
+		font-size: 3.4vw;
+	}
+}
+@media only screen and (max-width: 930px){
+	#bannerHead{
+		margin-top: 2.5em;
+		font-size: 3.4vw;
+	}
 }
 /* NAV */
 nav{
