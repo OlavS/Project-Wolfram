@@ -49,15 +49,6 @@ body{
 		font-size: 3.4vw;
 	}
 }
-@media only screen and (max-width: 800px){
-	#bannerHead span{
-		display: none;
-	}
-	#bannerHead{
-		margin-top: 1.7em;
-		font-size: 6vw;
-	}
-}
 /* NAV */
 nav{
 	padding: 0;
