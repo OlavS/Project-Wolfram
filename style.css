@@ -10,7 +10,7 @@ body{
 /* All pages */
 #banner{
 	width:100%;
-	background-color: pink;
+	background-color: lightblue;
 	display:inline-block;
 	
 }
@@ -119,14 +119,14 @@ nav div{
 .box .inbox{
 	float: right;
 }
-#boxIssue{
+#boxSolution{
 
 }
 #boxQR{
-	width: 96.5%;
+
 }
-#boxAlign{
-	margin-top: -1em;
+#boxFeatures{
+
 }
 .boxHead{
 	text-align: center;
@@ -142,18 +142,16 @@ nav div{
 	border-radius: 5px;
 	padding: 0em 1em;
 	box-shadow: 1em 1em 4em #9C9C9C;
-	margin-top: 1em;
-	
+
 }
 #contacts{
 	list-style: none;
-	padding: 0em 0em 0.5em 0em;
 }
 #firstMini{
-
+	margin-top: -48em;
 }
 #secoundMini{
-
+	margin-top: -31.5em;
 
 }
 /* All other then index */
