@@ -95,16 +95,12 @@ nav div{
 		margin-top: 1em;
 		display: block;
 		padding: 0.2em 0em 0.2em 0em;
-		letter-spacing: 1em;
 	}
 	nav ul a{
-		display: none;
+		display: block;
 	}
 	nav ul div span{
 		cursor: pointer;
-	}
-	nav ul div span:hover nav ul a{
-		display: inherit;
 	}
 }
 /* Index */
@@ -147,7 +143,10 @@ nav div{
 	padding: 0em 1em;
 	box-shadow: 1em 1em 4em #9C9C9C;
 
-}	
+}
+#contacts{
+	list-style: none;
+}
 #firstMini{
 	margin-top: -48em;
 }
