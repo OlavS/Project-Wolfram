@@ -79,8 +79,22 @@ nav a li{
 	list-style-type: none;
 	padding: 0.2em 1em 0.2em 1em;
 }
-.button{
-
+nav li{
+	list-style-type: none;
+	padding-left: 0;
+	text-align: left;
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #5F5F5F;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 @media only screen and (max-width: 930px){
