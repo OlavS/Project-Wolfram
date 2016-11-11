@@ -10,20 +10,24 @@ body{
 /* All pages */
 #banner{
 	width:100%;
-	background-color: pink;
-	display:inline-block;
+	background-color: #EEEEEE;
+	border-radius: 5px;
 	
 }
 #logo{
-	float: left;
 }
 #bannerHead{
+	font-family: Arial;
 	line-height: 0;
-	display: inline-block;
 	vertical-align: middle;
-	margin-left: 1em;
-	margin-top: 1.5em;
+	margin-left: 0.6em;
+	font-size: 400%;
+	padding: 0.2em 0.2em 0.3em 0.2em;
+	margin-top: 0;
 
+}
+#bannerHead span{
+	font-size: 60%;
 }
 @media only screen and (max-width: 1320px){
 	#banner{
