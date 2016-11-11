@@ -35,9 +35,33 @@
 	<img src="images/Scan.png" width="300vw">
 	</figure>
 	
-
-
-
+//Possibly jQuery:
+<a id="scroll">ScrollUp</a>
+<script type="javascript/text"> 
+$(document).ready(function() {
+	$(window).scroll(function() {
+		if($(this).scrollTop() > 100){
+			$('#scroll').stop().animate({
+				top: '20px'
+			}, 500);
+		}else{
+			$('#scroll').stop().animate({
+				scrollTop: 0
+				}, 500, function() {
+					$('#scroll').stop().animate({
+						top: '-100px'
+					}, 500);
+				});
+			});
+		});
+</script>
+#scroll{
+	background-color: #000000;
+	padding: 1em;
+	position: fixed;
+	right: 1em;
+	color: #EEEEEE;
+}
 
 </body>
 </html>

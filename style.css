@@ -84,13 +84,6 @@ nav li{
 	padding-left: 0;
 	text-align: left;
 }
-#scroll{
-	background-color: #000000;
-	padding: 1em;
-	position: fixed;
-	right: 1em;
-	color: #EEEEEE;
-}
 .dropdown{
 	position: relative;
 	display: inline-block;

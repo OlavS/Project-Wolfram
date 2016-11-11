@@ -93,24 +93,5 @@
 		Copyright &copy by Huy Minh Le, Lord Andrè Groseth, Jeremiah Augie S. Uy, Søren Pedersen, and Olav Sørlie.
 	</footer>
 </div>
-<a id="scroll">ScrollUp</a>
-<script type="javascript/text"> 
-$(document).ready(function() {
-	$(window).scroll(function() {
-		if($(this).scrollTop() > 100){
-			$('#scroll').stop().animate({
-				top: '20px'
-			}, 500);
-		}else{
-			$('#scroll').stop().animate({
-				scrollTop: 0
-				}, 500, function() {
-					$('#scroll').stop().animate({
-						top: '-100px'
-					}, 500);
-				});
-			});
-		});
-</script>
 </body>
 </html>
