@@ -81,17 +81,19 @@ nav a li{
 }
 nav li{
 	list-style-type: none;
-	padding-left: 0;
-	text-align: left;
+	text-align: center;
 }
 .dropdown{
 	position: relative;
 	display: inline-block;
+	padding: none;
 }
 .dropdown-content {
 	display: none;
+	width: 100%;
 	position: absolute;
-	background-color: #5F5F5F;
+	background-color: black;
+	color: white;
 }
 .dropdown:hover .dropdown-content {
     display: block;
@@ -185,11 +187,14 @@ nav li{
 	font-size: 70%;
 	color: #9C9C9C;
 }
+.wideBox h2{
+	margin-left: 0;
+}
 
 .wideBox figure{
 	text-align:center;
 	float: left;
-	margin: 0em 0em 0em 6.5em;
+	margin: 0em 3em 0em 0em;
 	width: auto;
 	
 }
