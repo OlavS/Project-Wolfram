@@ -12,15 +12,13 @@ body{
 	width:100%;
 	background-color: #EEEEEE;
 	border-radius: 5px;
+	text-align: center;
 	
-}
-#logo{
 }
 #bannerHead{
 	font-family: Arial;
 	line-height: 0;
 	vertical-align: middle;
-	margin-left: 0.6em;
 	font-size: 400%;
 	padding: 0.2em 0.2em 0.3em 0.2em;
 	margin-top: 0;
@@ -29,37 +27,43 @@ body{
 #bannerHead span{
 	font-size: 60%;
 }
-@media only screen and (max-width: 1320px){
-	#banner{
-		
-	}
+@media only screen and (max-width: 1560px){
 	#logo{
-		
+		width: 6.55vw;
 	}
 	#bannerHead{
-		margin-top: 1.75em;
-		font-size: 3.65vw;
+		font-size: 6.1vw;
+	}
+}
+@media only screen and (max-width: 1420px){
+	#bannerHead{
+		font-size: 6vw;
+	}
+}
+@media only screen and (max-width: 1240px){
+	#bannerHead{
+		font-size: 5.9vw;
 	}
 }
 @media only screen and (max-width: 1100px){
 	#bannerHead{
-		margin-top: 2em;
-		font-size: 3.4vw;
+		font-size: 5.8vw;
+	}
+}
+@media only screen and (max-width: 985px){
+	#bannerHead{
+		font-size: 5.7vw;
 	}
 }
 @media only screen and (max-width: 930px){
-	#bannerHead{
-		margin-top: 2.5em;
-		font-size: 3.4vw;
+	#logo{
+		width: 9vw;
 	}
-}
-@media only screen and (max-width: 800px){
+	#bannerHead{
+		font-size: 10vw;	
+	}
 	#bannerHead span{
 		display: none;
-	}
-	#bannerHead{
-		margin-top: 1.2em;
-		font-size: 9vw;
 	}
 }
 /* NAV */
@@ -68,6 +72,7 @@ nav{
 	font-size: 120%;
 	line-height: 1.5;
 	text-align: center;
+	margin-top: -1em;
 }
 nav a{
 	text-decoration: none;
@@ -92,14 +97,14 @@ nav li{
 	display: inline-block;
 	padding: none;
 }
-.dropdown-content {
+.dropdownContent {
 	display: none;
 	width: 100%;
 	position: absolute;
 	background-color: black;
 	color: white;
 }
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdownContent {
     display: block;
 }
 #scroll{
@@ -115,7 +120,7 @@ nav li{
 }
 @media only screen and (max-width: 930px){
 	nav ul{
-		margin-top: 1em;
+		margin-top: -2vh;
 		padding: 0em;
 	}
 	nav ul a{
@@ -146,7 +151,7 @@ nav li{
 	padding: 0em 1em 1em 1em;
 }
 #boxAlign{
-	margin-top: -1em;
+	margin-top: -2.5em;
 }
 .boxHead{
 	text-align: center;
