@@ -151,8 +151,6 @@ nav span{
 #boxQR{
 	width: 96.5%;
 	padding: 0em 1em 1em 1em;
-	left:0;
-	right:0;
 }
 #boxAlign{
 	margin-top: -2.5em;
@@ -175,6 +173,26 @@ nav span{
 	box-shadow: 1em 1em 4em #9C9C9C;
 	margin-top: 1em;
 	
+}
+@media only screen and (max-width: 1305px){
+	.box{
+		width: 75.2vw;
+		left:0;
+		right:0;
+	}
+	.miniBox{
+		margin-top: 2vw;
+		width: 34vw;
+	}
+	#firstMini{
+		float: right;
+	}
+	#secoundMini{
+		float: left;
+	}
+	#boxQR{
+	width: 75.2vw;
+	}
 }
 #contacts{
 	list-style: none;
