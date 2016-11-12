@@ -89,11 +89,11 @@ nav a li{
 	padding: 0.2em 1em 0.2em 1em;
 }
 nav li{
-	list-style-type: none;
 	text-align: center;
 }
 nav span{
 	float: right;
+	line-height: 1em;
 }
 .dropdown{
 	position: relative;
