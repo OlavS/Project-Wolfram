@@ -149,8 +149,18 @@ nav span{
 
 }
 #boxQR{
-	width: 96.5%;
+	width: auto;
+	left: 0;
+	right: 0;
+}
+#boxQR div figure figcaption {
+	float: right;
+	margin-left: 14.5em;
+	margin-top: -11em;
+}
+#boxQR .inbox{
 	padding: 0em 1em 1em 1em;
+
 }
 #boxAlign{
 	margin-top: -2.5em;
