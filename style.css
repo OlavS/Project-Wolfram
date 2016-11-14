@@ -153,17 +153,11 @@ nav span{
 	left: 0;
 	right: 0;
 }
-#boxQR div figure{
-	padding: 0em 0em 0em 0.5em;	
+#boxQR div figure img{
+	padding: 0em 2em 1em 0em;
 }
 #boxQR div figure figcaption {
-	float: right;
-	margin-left: 14.5em;
-	margin-top: -11em;
-}
-#boxQR .inbox{
-	padding: 0em 1em 1em 1em;
-
+	float: right:
 }
 #boxAlign{
 	margin-top: -2.5em;
@@ -189,13 +183,15 @@ nav span{
 }
 @media only screen and (max-width: 1305px){
 	.box{
-		width: 75.2vw;
-		left:0;
-		right:0;
+		width: auto;
+		left: 0;
+		right: 0;
 	}
 	.miniBox{
 		margin-top: 2vw;
 		width: 34vw;
+		box-shadow: 0.5em 0.5em 2em #9C9C9C;
+
 	}
 	#firstMini{
 		float: right;
@@ -203,10 +199,22 @@ nav span{
 	#secoundMini{
 		float: left;
 	}
-	#boxQR{
-	width: 75.2vw;
-	}
 }
+@media only screen and (max-width: 1075px){
+	#firstMini{
+		float: left;
+		width: auto;
+		left: 0;
+		right: 0;
+	}
+	#secoundMini{
+		width: auto;
+		left: 0;
+		right: 0;
+	}
+
+}
+
 #contacts{
 	list-style: none;
 	padding: 0em 0em 0.5em 0em;
