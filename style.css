@@ -153,6 +153,9 @@ nav span{
 	left: 0;
 	right: 0;
 }
+#boxQR div figure{
+	padding: 0em 0em 0em 0.5em;	
+}
 #boxQR div figure figcaption {
 	float: right;
 	margin-left: 14.5em;
