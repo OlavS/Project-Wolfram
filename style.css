@@ -105,6 +105,7 @@ nav span{
 	width: 100%;
 	position: absolute;
 	background-color: black;
+	text-align: center;
 	color: white;
 }
 .dropdown:hover .dropdownContent {
