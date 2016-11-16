@@ -167,6 +167,7 @@ nav span{
 }
 .boxHead{
 	text-align: center;
+	font-size: 200%;
 }
 .box footer{
 	font-size: 70%;
@@ -245,12 +246,13 @@ nav span{
 }
 .wideBox h2{
 	margin-left: 0;
+	text-align: center;
 }
 
 .wideBox figure{
 	text-align:center;
-	float: left;
-	margin: 0em 3em 0em 0em;
+	float: center;
+	margin: 0em 0em 0em 0em;
 	width: auto;
 }
 #figCapFeatures{
