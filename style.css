@@ -19,13 +19,12 @@ body{
 	font-family: Arial;
 	line-height: 0;
 	vertical-align: middle;
-	font-size: 400%;
 	padding: 0.2em 0.2em 0.3em 0.2em;
 	margin-top: 0;
 
 }
 #bannerHead span{
-	font-size: 60%;
+	font-size: 55%;
 }
 @media only screen and (max-width: 1560px){
 	#logo{
