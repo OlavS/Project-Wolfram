@@ -6,7 +6,16 @@ body{
 	margin: 0 auto;
 	background-color: #C9C9C9;
 }
-
+@media only screen and (max-width: 810px){
+	body{
+		width: 90%;
+	}
+}
+@media only screen and (max-width: 650px){
+	body{
+		width: 99%;
+	}
+}
 /* All pages */
 #banner{
 	width:100%;
@@ -25,7 +34,7 @@ body{
 
 }
 #bannerHead span{
-	font-size: 55%;
+	font-size: 65%;
 }
 @media only screen and (max-width: 1560px){
 	#logo{
@@ -106,7 +115,7 @@ nav span{
 	position: absolute;
 	background-color: black;
 	text-align: center;
-	color: white;
+	color: #EEEEEE;
 }
 .dropdown:hover .dropdownContent {
     display: block;
@@ -121,7 +130,10 @@ nav span{
 	padding: 0em 0.5em 0em;
 	border-radius: 5px;
 }
-@media only screen and (max-width: 930px){
+@media only screen and (max-width: 1085px){
+	.dropdown{
+		display: block;
+	}
 	nav ul{
 		margin-top: -2vh;
 		padding: 0em;
@@ -202,6 +214,11 @@ nav span{
 		float: left;
 	}
 }
+@media only screen and (max-width: 1085px){
+	#boxIssue {
+		margin-top: 0em;
+	}
+}
 @media only screen and (max-width: 1075px){
 	#firstMini{
 		float: left;
@@ -257,6 +274,11 @@ nav span{
 }
 #figCapFeatures{
 	font-size: 85%;
+}
+@media only screen and (max-width: 1085px){
+	.wideBox {
+		margin-top: 2.4em;
+	}
 }
 /*All pages*/
 #creators{
