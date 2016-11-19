@@ -82,6 +82,7 @@ nav{
 	line-height: 1.5;
 	text-align: left;
 	margin-top: -1em;
+	border-radius: 5px;
 }
 nav a{
 	text-decoration: none;
@@ -103,19 +104,21 @@ nav li{
 nav span{
 	float: right;
 	line-height: 1em;
+	margin-right: 1.5em;
 }
 .dropdown{
 	position: relative;
 	display: inline-block;
 	padding: none;
 }
-.dropdownContent {
+.dropdownContent{
 	display: none;
 	width: 100%;
 	position: absolute;
 	background-color: black;
 	text-align: center;
 	color: #EEEEEE;
+	border-radius: 5px;
 }
 .dropdown:hover .dropdownContent {
     display: block;
@@ -130,7 +133,7 @@ nav span{
 	padding: 0em 0.5em 0em;
 	border-radius: 5px;
 }
-@media only screen and (max-width: 1085px){
+@media only screen and (max-width: 1150px){
 	.dropdown{
 		display: block;
 	}
@@ -138,8 +141,17 @@ nav span{
 		margin-top: -2vh;
 		padding: 0em;
 	}
+	nav a:hover{
+		border-radius: 5px;
+	}
 	nav ul a{
 		display: block;
+	}
+	nav span{
+		margin-right: 0em;
+	}
+	nav span a{
+		display: inline-block;
 	}
 }
 /* Index */
@@ -173,7 +185,7 @@ nav span{
 	float: right:
 }
 #boxAlign{
-	margin-top: -2.5em;
+	margin-top: -1em;
 	left:0;
 	right:0;
 }
@@ -214,7 +226,7 @@ nav span{
 		float: left;
 	}
 }
-@media only screen and (max-width: 1085px){
+@media only screen and (max-width: 1150px){
 	#boxIssue {
 		margin-top: 0em;
 	}
@@ -282,13 +294,14 @@ nav span{
 }
 /*All pages*/
 #creators{
-	color: #EEEEEE;
+	color: #000;
 	text-align: center;
 	font-size: 80%;
 	width: 100%;
-	background-color: #000;
+	background-color: #EEEEEE;
 	padding: 0em 1em;
 	float: left;
 	padding: 0em;
-	margin-top: 1em
+	margin-top: 1em;
+	border-radius: 5px;
 }
