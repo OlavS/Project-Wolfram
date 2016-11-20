@@ -123,6 +123,10 @@ nav span{
 .dropdown:hover .dropdownContent {
     display: block;
 }
+.dropdownContent a:hover{
+	width: 100%;
+	border-radius: 5px;
+}
 #scroll{
 	background-color: #000000;
 	color: #EEEEEE;
@@ -239,16 +243,15 @@ nav span{
 @media only screen and (max-width: 1075px){
 	#firstMini{
 		float: left;
-		width: auto;
+		width: 74.2vw;
 		left: 0;
 		right: 0;
 	}
 	#secoundMini{
-		width: auto;
+		width: 74.2vw;
 		left: 0;
 		right: 0;
 	}
-
 }
 
 #contacts{
