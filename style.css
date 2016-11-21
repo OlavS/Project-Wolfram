@@ -241,32 +241,35 @@ nav span{
 	}
 }
 @media only screen and (max-width: 1075px){
+	.miniBox{
+		margin-top: 1em;
+	}
 	#firstMini{
-		float: left;
-		width: 94.1%;
+		width: 100%;
+		padding: 0em 0em 0em 0em;
 		left: 0;
 		right: 0;
 	}
+	#firstMini li{
+		padding: 0em 1em;
+	}
 	#secoundMini{
-		width: 94.1%;
+		width: 100%;
+		padding: 0em 0em 0em 0em;
 		left: 0;
 		right: 0;
 	}
-}
-@media only screen and (max-width: 810px){
-	#firstMini{
-		width: 93.1%;
+	#secoundMini li{
+		padding: 0em 2em;
 	}
-	#secoundMini{
-		width: 93.1%;
+	#boxQR{
+		padding: 0em 0em 0em 0em;
+		width: 100%;
+		right: 0;
+		left: 0;
 	}
-}
-@media only screen and (max-width: 650px){
-	#firstMini{
-		width: 92%;
-	}
-	#secoundMini{
-		width: 92%;
+	#boxQR footer{
+		padding: 0em 1.5em;
 	}
 }
 #contacts{
@@ -275,7 +278,8 @@ nav span{
 }
 #firstMini{
 }
-#secoundMini{
+#secoundMini li{
+	padding: 0em 1em;
 }
 /* All other then index */
 .wideBox{
