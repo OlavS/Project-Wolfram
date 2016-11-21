@@ -243,27 +243,39 @@ nav span{
 @media only screen and (max-width: 1075px){
 	#firstMini{
 		float: left;
-		width: 74.2vw;
+		width: 94.1%;
 		left: 0;
 		right: 0;
 	}
 	#secoundMini{
-		width: 74.2vw;
+		width: 94.1%;
 		left: 0;
 		right: 0;
 	}
 }
-
+@media only screen and (max-width: 810px){
+	#firstMini{
+		width: 93.1%;
+	}
+	#secoundMini{
+		width: 93.1%;
+	}
+}
+@media only screen and (max-width: 650px){
+	#firstMini{
+		width: 92.2%;
+	}
+	#secoundMini{
+		width: 92.2%;
+	}
+}
 #contacts{
 	list-style: none;
 	padding: 0em 0em 0.5em 0em;
 }
 #firstMini{
-
 }
 #secoundMini{
-
-
 }
 /* All other then index */
 .wideBox{
@@ -295,7 +307,7 @@ nav span{
 #figCapFeatures{
 	font-size: 85%;
 }
-@media only screen and (max-width: 1085px){
+@media only screen and (max-width: 1150px){
 	.wideBox {
 		margin-top: 2.4em;
 	}
