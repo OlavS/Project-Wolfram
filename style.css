@@ -250,8 +250,8 @@ nav span{
 		left: 0;
 		right: 0;
 	}
-	#firstMini li{
-		padding: 0em 1em;
+	#firstMini ul{
+		padding: 0em 2em;
 	}
 	#secoundMini{
 		width: 100%;
