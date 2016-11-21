@@ -31,7 +31,6 @@ body{
 	vertical-align: middle;
 	padding: 0.2em 0.2em 0.3em 0.2em;
 	margin-top: 0;
-
 }
 #bannerHead span{
 	font-size: 55%;
@@ -89,7 +88,6 @@ nav a{
 	color: #EEEEEE;
 	display: inline-block;
 	transition:0.3s;
-	
 }
 nav a:hover{
 	background-color: #5F5F5F;
@@ -214,7 +212,6 @@ nav span{
 	padding: 0em 1em;
 	box-shadow: 1em 1em 4em #9C9C9C;
 	margin-top: 1em;
-	
 }
 @media only screen and (max-width: 1305px){
 	.box{
@@ -226,7 +223,6 @@ nav span{
 		margin-top: 2vw;
 		width: 34vw;
 		box-shadow: 0.5em 0.5em 2em #9C9C9C;
-
 	}
 	#firstMini{
 		float: right;
@@ -291,7 +287,6 @@ nav span{
 	left: 0;
 	right: 0;
 	padding: 1em 3em 1em 3em;
-
 }
 .wideBox footer{
 	font-size: 70%;
@@ -313,7 +308,7 @@ nav span{
 }
 @media only screen and (max-width: 1055px){
 	.wideBox {
-		margin-top: 2.3em;
+		margin-top: 2.4em;
 	}
 }
 /*All pages*/
