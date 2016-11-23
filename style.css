@@ -8,6 +8,7 @@ body{
 	background-color: #C9C9C9;
 }
 
+
 @media only screen and (max-width: 810px){
 	body{
 		width: 90%;
@@ -20,14 +21,19 @@ body{
 }
 
 @media only screen and (max-width: 580px){
-	body{
-		width: 99%;
-	}
 	#boxQR div figure img{
 	padding: 0;
 	width: 70vw;
 }
 }
+
+@media only screen and (max-width: 580px){
+	#hiwbilder{
+	padding: 0;
+	width: 70vw;
+	}
+}
+
 /* All pages */
 #banner{
 	width:100%;
@@ -335,4 +341,16 @@ nav span{
 	padding: 0em;
 	margin-top: 1em;
 	border-radius: 5px;
+}
+
+@media only screen and (max-width: 810px){
+	.wideBox {
+		padding: 1em;
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 650px){
+	.wideBox figure{
+		padding: 0;
+	}
 }
