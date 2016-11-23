@@ -16,6 +16,17 @@ body{
 		width: 99%;
 	}
 }
+
+@media only screen and (max-width: 580px){
+	body{
+		width: 99%;
+	}
+	#boxQR div figure img{
+	padding: 0;
+	width: 70vw;
+}
+}
+
 /* All pages */
 #banner{
 	width:100%;
