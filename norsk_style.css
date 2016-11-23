@@ -218,7 +218,10 @@ nav span{
 }
 .boxHead{
 	text-align: center;
-	font-size: 200%;
+	font-size: 150%;
+}
+#forSykepleier{
+	font-size: 120%;
 }
 .box footer{
 	font-size: 70%;

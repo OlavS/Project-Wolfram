@@ -216,8 +216,12 @@ nav span{
 }
 .boxHead{
 	text-align: center;
-	font-size: 200%;
+	font-size: 150%;
 }
+#forNurses{
+	font-size: 120%;
+}
+
 .box footer{
 	font-size: 70%;
 	color: #9C9C9C;
